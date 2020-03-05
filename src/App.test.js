@@ -5,6 +5,12 @@ import EnzymeAdapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
-test('renders without crashing', () => {
-  const wrapper = shallow(<App />);
-});
+test('renders without error', () => {});
+
+test('renders increment button', () => {});
+
+test('renders counter display', () => {});
+
+test('counter starts at 0', () => {});
+
+test('clicking button increments counter display', () => {});
